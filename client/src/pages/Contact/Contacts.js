@@ -2,8 +2,7 @@ import React, { useRef, useEffect } from 'react'
 import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"
 import location from "./location.png"
 import "./Contact.css";
-//import { useState } from "react";
-//import emailjs from 'emailjs-com'
+
 import emailjs from '@emailjs/browser'
 
 function Contacts() {
@@ -61,7 +60,7 @@ function Contacts() {
       <img src="img/shape.png" className="square" alt="" />
       <div className="form">
         <div className="contact-info">
-          <h3 className="title">Let's get in touch</h3>
+          <h3 className="title">Contact</h3>
           <p className="text">
             Send us the message and contact now. Get your all queries resolved here!
           </p>
