@@ -1,0 +1,133 @@
+.calender{
+    margin-left:50px;
+    margin-right:50px;
+    /* background-color:  rgb(2, 76, 185); */
+    background-color: #012147;
+    height: 400px;
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    padding:30px;
+    margin-top: -3rem;
+}
+
+.rbc-toolbar button:active, .rbc-toolbar button.rbc-active {
+    background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    background-color: white;
+    border-color: #000000;
+    color: #012147;
+}
+
+.rbc-toolbar button {
+    /* color: #373a3c; */
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    /* background: none; */
+    /* background-image: none; */
+    border: 1px solid black;
+    padding: 0.375rem 1rem;
+    border-radius: 4px;
+    line-height: normal;
+    white-space: nowrap;
+    background-color: #012147;
+    color: white;
+}
+
+.rbc-off-range-bg {
+    background: rgb(204, 200, 200);
+    color:black;
+}
+
+.rbc-event, .rbc-day-slot .rbc-background-event .rbc-event:active{
+    border: none;
+    box-sizing: border-box;
+    box-shadow: none;
+    margin: 0;
+    padding: 2px 5px;
+    background-color: rgb(6, 65, 148);;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    width: 95%;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:-5px;
+}
+
+.rbc-today {
+    background-color: rgb(2, 66, 155);
+}
+
+.rbc-toolbar button:active:hover, .rbc-toolbar button:active:focus, .rbc-toolbar button.rbc-active:hover, .rbc-toolbar button.rbc-active:focus {
+    color: #c0c0c0;
+
+    /* background-color: #d4d4d4; */
+    border-color: black;
+}
+
+.rbc-ellipsis, .rbc-show-more, .rbc-row-segment .rbc-event-content, .rbc-event-label {
+    display: block; 
+    overflow: hidden; 
+     text-overflow: ellipsis;
+    white-space: nowrap;
+    color:white;
+    background-color: rgb(6, 65, 148);
+}
+
+
+@media screen and (max-width:1200px) {
+    .rbc-toolbar {
+        flex-direction: column;
+    }
+
+    .rbc-toolbar .rbc-toolbar-label {        
+        padding: 10px 10px;
+        
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .rbc-toolbar{
+        flex-direction: row;
+    }
+
+    .rbc-toolbar .rbc-toolbar-label {        
+        padding: 0px 10px;
+        
+    }
+}
+
+@media screen and (max-width:850px) {
+    
+    .calender{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: -18vh;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .rbc-toolbar {
+        flex-direction: column;
+    }
+
+    .rbc-toolbar .rbc-toolbar-label {        
+        padding: 10px 10px;
+        
+    }
+}
+@media(max-width:900px)
+{
+    .rbc-btn-group{
+        margin-left: -1rem;
+        font-size: 0.8rem;
+    }
+    .rbc-toolbar-label{
+        font-size: 1rem;
+    }
+
+    
+}

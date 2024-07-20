@@ -4,6 +4,7 @@ import './App.css';
 import Header from './pages/Header/Header';
 import Footer from './pages/Header/Footer';
 import Contacts from "./pages/Contact/Contacts";
+import transaction from './pages/transaction/transaction';
 import MainSection from './pages/Teams/MainSection';
 import Home from "./pages/Home/Home";
 import { BrowserRouter,Route, Routes } from 'react-router-dom';
@@ -13,7 +14,6 @@ import { useEffect } from 'react';
 import FAQs from './pages/Header/FAQs';
 import Blog from "./pages/BlogPages/assets/Blog";
 import Blogpg from './pages/BlogPages/BlogPg';
-import Bootcamp from './pages/Bootcamp/Bootcamp';
 import Upcoming from './pages/Home/Upcoming';
 
 function App() {
@@ -30,9 +30,10 @@ function App() {
   <Route path="/contact" element={<Contacts/>}/>
   <Route path="/team" element={<MainSection/>}/>
   <Route path="/faq" element={<FAQs/>}/>
+  <Route path="/transaction" element={<transaction.html/>}/>
   <Route path="/blog" element={<Blogpg/>}/>
   <Route path="/googlegenerationscholarship" element={<Blog/>}/>
-  <Route path="/bootcamp" element={<Bootcamp/>}/>
+  
   <Route path="/upevent" element={<Upcoming/>}/>
   
 </Routes>

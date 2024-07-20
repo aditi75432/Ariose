@@ -1,0 +1,29 @@
+.feedback{
+    padding:40px;
+    text-align: center;
+    height: 94.6vh;
+    /* display: flex;
+    flex-direction: column; */
+    padding-top:0px;
+    padding-left: 0px;
+}
+
+
+
+
+.event_toggle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.back_btn, .forward_btn{
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+
+@media screen and (max-width:1000px) {
+    .feedback{
+        height: auto;
+    }
+}

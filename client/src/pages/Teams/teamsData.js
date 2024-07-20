@@ -98,18 +98,7 @@ const teamData = [
       twitter: 'https://twitter.com/shreyyajoshi?t=kfpPMFR6KCJmgFLyracHHQ&s=09',
     },
 
-    // {
-    //   position: 'temp',
-    //   name: 'Megha Agarwal',
-    //   image: '/images/Megha_Aggarwal.jpeg',
-    //   email: 'megha081bteceai21@igdtuw.ac.in',
-    //   instagram: '',
-    //   phone: '9818472407',
-    //   branch: 'ECEAI',
-    //   year: '2',
-    //   linkedin: 'www.linkedin.com/in/megha-agarwal-13150222b',
-    //   twitter: '',
-    // },
+  
     {
       position: 'Content Lead',
       name: 'Diya Singla',

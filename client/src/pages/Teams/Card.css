@@ -123,17 +123,6 @@ img {
   transform-origin: 18px 17px;
 }
 
-/* .card__social-toggle {
-  display: inline-flex;
-  background-color: var(--black-color);
-  color: var(--first-color);
-  font-size: 1.25rem;
-  padding: 0.5rem;
-  border-radius: 50%;
-  cursor: pointer;
-  position: relative;
-  z-index: 10;
-} */
 
 .card__social-text {
   display: block;
