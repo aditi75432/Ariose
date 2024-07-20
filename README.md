@@ -173,3 +173,54 @@
 
    </div>
 
+
+
+
+ <div>
+
+<h2>IMPLEMENTATION</h2>
+
+
+<div>
+        <h3>INSTALLATION</h3>
+        <br>
+        <h3>Prerequisites:</h3>
+        <ul>
+            <li>Node.js</li>
+            <li>Javascript</li>
+            <li>Python(Jupyter notebook)</li>
+            <li>Git</li>
+            <li>React.js</li>
+            <li>Diamante</li>
+            <li>IPFS</li>
+    </ul>
+
+  <br>
+
+  <h3>Steps to install Diamante,IPFS</h3>
+        <ul>
+            <li>Diamante:To set up the backend, follow these steps:
+                <ol>
+                    <li>Clone the repository:
+                        git clone 
+   <a href="https://github.com/diamcircle/diamante-js-sdk-sample">https://github.com/diamcircle/diamante-js-sdk-sample</a></li>
+                    <li>Navigate to the backend directory and install dependencies:\
+                        cd diamante-js-sdk-sample/diamante-demo
+                        npm install
+   </li>
+                </ol>
+            </li>
+
+
+
+
+  <li>
+
+  IPFS: Download IPFS: Go to the IPFS installation page and download the appropriate version for your operating system
+
+ </li>
+  </ul>
+</div>
+
+</div>
+
