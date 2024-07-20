@@ -6,20 +6,20 @@
   <p>ARIOSE is a credit card fraud detection platform designed to safeguard your financial transactions with both precision and security. Leveraging the power of advanced machine learning algorithms and blockchain technology, ARIOSE ensures that your transactions are not only secure but also transparent and immutable.
         ARIOSE is a step into a future of credit card security where finances are protected with a platform that combines the best of AI and blockchain technology for security and peace of mind.
     </p>
-
-  <ol> <h3>Table Of Contents</h3>
-        <li> <a href="#Website_Flow">Website Flow</a></li>
-        <li><a href="#Problem_statement">Problem Statement</a></li>
-        <li><a href="#USPs">USPs</a></li>
-        <li><a href="#Objective">Objective</a></li>
-        <li><a href="#Solution">Solution</a></li>
-        <li><a href="#Tech_Stack">Tech Stack </a></li>
-        <li><a href="#Implementation">Implementation</a></li>
-        <li><a href="#Features">Features</a></li>
-        <li><a href="#Demo_Video">Demo Video</a></li>
-        <li><a href="#Challenge_Faced">Challenges Faced</a></li>
-        <li><a href="#Contributors">Contributors</a></li>
-        <li><a href="#Project_Structure">Project Structure</a></li>
+<h2>Table Of Contents</h2>
+  <ol>
+        <li> Website Flow</li>
+        <li>Problem Statement</li>
+        <li>USPs</li>
+        <li>Objective</li>
+        <li>Solution</li>
+        <li>Tech Stack</li>
+        <li>Implementation</li>
+        <li>Features</li>
+        <li>Demo Video</li>
+        <li>Challenges Faced</li>
+        <li>Contributors</li>
+        <li>Project Structure</li>
     </ol>
 
   <div id="Problem_statement" >
@@ -55,6 +55,8 @@
                 </p>
             </li>
 
+  </br>
+
   <h3>Blockchain-Powered Security using Diamante</h3>
 
   <li>
@@ -70,6 +72,8 @@
 
   </li>
 
+  </br>
+
   <h3>Superior Privacy and Transparency using IPFS            </h3>
 
 <li>
@@ -84,6 +88,8 @@
                 </p>
             </li>
 
+  </br>          
+
   <h3>Machine Learning Algorithms</h3>
 
   <li>
@@ -91,6 +97,8 @@
                 <p>The Isolation Forest algorithm is specifically designed to excel in anomaly detection, making it ideal for identifying fraudulent transactions. This algorithm isolates anomalies by randomly selecting a feature and then randomly selecting a split value between the maximum and minimum values of the selected feature.
                 </p>
             </li>
+
+  </br>        
 
   <h3>Integration and User Experience</h3>
 
@@ -100,6 +108,8 @@
                 </p>
             </li>
 
+  </br>          
+
  <h3>Comprehensive Support</h3>
 
    <li>
@@ -108,8 +118,58 @@
             </li>
         </ol>
 
-  <h3>Advanced Fraud Detection with Isolation Forest</h3>
-
-
 
  </div>
+
+
+
+
+ 
+   <div>
+
+  <h2>OBJECTIVE</h2>
+
+ <p>
+
+  To revolutionize credit card fraud detection by combining machine learning algorithms with the robust security of diamante blockchain technology, providing users with unparalleled protection, privacy.
+
+  </p>
+
+   </div>
+
+
+   <div>
+
+<h2>SOLUTION</h2>
+
+<p>In an era where digital transactions are increasingly susceptible to fraud, ARIOSE provides a solution to safeguard financial operations. Combining advanced machine learning techniques with blockchain technology, ARIOSE ensures the highest levels of security, transparency, and efficiency in detecting and preventing credit card fraud.    </p>
+
+   </div>
+
+
+
+
+   <div>
+
+  <h2>Tech Stack</h2>
+
+<p style="display:block;" >Frontend:      HTML, CSS, Javascript, React.js
+        </p>
+
+<p style="display:block;" >Framework: Bootstrap
+        </p>
+
+<p style="display:block;" >Backend: Express.js, Node.js,Flask,Python
+        </p>
+
+<p style="display:block;" >Blockchain: Diamante
+        </p>
+
+<p style="display:block;" >Machine Learning : scikit-learn,numpy,pandas
+        </p>
+
+<p style="display:block;" >Decentralized Server Used : IPFS
+        </p>
+
+   </div>
+
