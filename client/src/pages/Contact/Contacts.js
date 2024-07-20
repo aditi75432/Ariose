@@ -92,7 +92,7 @@ function Contacts() {
           <span className="circle one"></span>
           <span className="circle two"></span>
       
-          <form ref={form} action="https://formsubmit.co/microsoftstudentchapter.igdtuw@gmail.com" method="POST" autoComplete="off" onSubmit={ sendEmail }>
+          <form ref={form} action="https://formsubmit.co/aditi75432@gmail.com" method="POST" autoComplete="off" onSubmit={ sendEmail }>
             <h3 className="title">Contact us</h3>
             <div className="input-container">
             <input type="text" name="name" className="input" id="username"/>
