@@ -30,7 +30,7 @@ function App() {
   <Route path="/contact" element={<Contacts/>}/>
   <Route path="/team" element={<MainSection/>}/>
   <Route path="/faq" element={<FAQs/>}/>
-  <Route path="/transaction" element={<transaction.html/>}/>
+  <Route path="/transaction" element={<transaction/>}/>
   <Route path="/blog" element={<Blogpg/>}/>
   <Route path="/googlegenerationscholarship" element={<Blog/>}/>
   
