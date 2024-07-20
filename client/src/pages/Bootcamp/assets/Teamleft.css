@@ -1,0 +1,69 @@
+.teamleft{
+    width:90vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 7.5vw;
+
+}
+.teamleft img{
+    width:8rem;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    border-radius: 50%;
+}
+.teamachievementleft{
+    width:60vw;
+    height:8rem;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #012147;
+    padding: 1rem;
+    color:white;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.teamachievementleft span{
+    font-size: 1.1rem;
+    color:rgb(8, 100, 247);
+}
+@media(max-width:900px)
+{
+    .teamleft{
+        width:90vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left:0;
+    
+    }
+    .teamleft img{
+        width:8rem;
+        border-radius: 10px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 3rem;
+        border-radius: 50%;
+    }
+    .teamachievementleft{
+        width:80vw;
+        height:auto;
+        border-radius: 10px;
+        display: block;
+        background-color: #012147;
+        padding: 1rem;
+        color:white;
+        margin-left: auto;
+        margin-top: 1rem;
+        margin-right: auto;
+    }
+    .teamachievementleft span{
+        font-size: 1.1rem;
+        color:rgb(8, 100, 247);
+    }
+}

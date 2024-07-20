@@ -1,0 +1,97 @@
+.imghover{
+    height: 300px;
+    width: 300px;
+    border-radius:5px; 
+    transition:.5s;
+  }
+  .galleryhover{
+    display: flex;
+  }
+  .cardhover{
+    height: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px rgb(221, 217, 217);
+    overflow:hidden;
+    position: relative;
+  }
+  .descriptionhover{
+    height:90px;
+    width: 300px;
+    padding:6px;
+    box-sizing: border-box;
+    position:absolute;
+    bottom:10px;
+    color:#FFF; 
+    transition: .5s;
+  }
+  .descriptionhover h1{
+    margin:10px;
+    font-size: 30px;
+    visibility: hidden;
+  }
+  .descriptionhover p{
+    font-size: 14px;
+    margin:10px;
+    visibility:hidden;
+    opacity: 0;
+    
+  }
+  .cardhover:hover{
+    cursor:pointer; 
+  }
+  .cardhover:hover .descriptionhover{
+    height:300px;
+    bottom:-4px;
+    background:white;
+    color:black;
+    
+  }
+  .cardhover:hover p{
+    opacity:1;
+    visibility: visible;  
+  }
+  .cardhover:hover h1{
+    opacity:1;
+    visibility: visible;  
+  }
+  .cardhover:hover .imghover{
+    transform:scale(1.1);
+  }
+  @media(max-width:900px)
+  {
+    .descriptionhover h1{
+      margin:10px;
+      font-size: 30px;
+      visibility: hidden;
+    }
+    .descriptionhover p{
+      font-size: 14px;
+      margin:0px;
+      visibility:hidden;
+      opacity: 0;
+    }
+    .descriptionhover{
+      height:90px;
+      width: 300px;
+      padding:1rem;
+      box-sizing: border-box;
+      position:absolute;
+      bottom:10px;
+      color:#FFF; 
+      transition: .5s;
+    }
+  }
+  @media(max-width:375px)
+  {
+    .descriptionhover{
+      height:auto;
+      width: 280px;
+      padding:0.8rem;
+      box-sizing: border-box;
+      position:absolute;
+      bottom:10px;
+      color:#FFF; 
+      transition: .5s;
+      text-align: left;
+    }
+  }

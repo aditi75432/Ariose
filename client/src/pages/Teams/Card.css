@@ -1,0 +1,221 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import '~font-awesome/css/font-awesome.min.css';
+
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: #0877cf;
+  --bg-color: white;
+  --first-color-light: #66c3e0;
+  --black-color: #213a60;
+  --text-color: #b5d7e6;
+  --body-color: #62829b;
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Poppins", sans-serif;
+  --h3-font-size: 1.125rem;
+  --smaller-font-size: 0.75rem;
+}
+/*title*/
+h1{
+    font-family: var(--body-font);
+    font-size: 60px;
+    text-align: center;
+    color: var(--first-color);
+    font-weight: 500;
+    /* text-shadow: 0px 3px black; */
+}
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  background: radial-gradient(circle,white,#2673AE);  
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== CARD ===============*/
+.containerteam {
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); */
+    /* gap: 50px; */
+    flex-wrap: wrap;
+    /* margin-inline: 1.5rem;
+    margin-inline: 1.5rem; */
+    justify-content: space-around;
+    place-items: center;
+    margin-top: 3rem;
+  }
+  
+.cardteam{
+  width: 30vw;
+  background-color: var(--black-color);
+  padding: 1.25rem 2rem 3rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  box-shadow: 0px 0px 20px 10px hsla(29, 75%, 8%, 0.2);
+  margin: 1.5rem;/*relative size to my screen size*/
+}
+
+.card__img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+}
+
+.card__border {
+  width: 110px;
+  height: 110px;
+  border: 2px solid var(--first-color);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 0.75rem;
+}
+
+.card__name {
+  color: var(--text-color);
+  font-size: var(--h3-font-size);
+  font-weight: 500;
+}
+
+.card__profession {
+  color: var(--text-color);
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
+}
+
+.card__social {
+  width: 180px;
+  height:2.5rem;
+  background-color: var(--text-color);
+  padding: 1rem;
+  border-radius:20px;
+  text-align: initial;
+  box-shadow: 0 8px 24px hsla(29, 75%, 56%, 0.3);
+  position:relative;
+  left: 0;
+  right: 0;
+  bottom: -1.75rem;
+  margin: 0 auto;
+  /* overflow: hidden; */
+  transform-origin: 18px 17px;
+}
+
+/* .card__social-toggle {
+  display: inline-flex;
+  background-color: var(--black-color);
+  color: var(--first-color);
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+} */
+
+.card__social-text {
+  display: block;
+  color: var(--black-color);
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
+}
+
+.card__social-list {
+  display: inline-flex;
+  column-gap: 0.75rem;
+  justify-content: space-around;
+  margin-right: 1rem;
+
+
+}
+
+.card__social-link {
+  display: inline-flex;
+  background-color: var(--first-color-light);
+  color: var(--black-color);
+  font-size: 1rem;
+  padding: 6px;
+  border-radius: 50%;
+  margin-top:0.5rem;
+}
+
+.card__social-text,
+.card__social-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 1rem;
+}
+
+.card__social-text {
+  top: 0rem;
+  left: 2rem;
+}
+
+@media(max-width:1024px)
+{
+  h1{
+    font-family: var(--body-font);
+    font-size: 40px;
+    text-align: center;
+    color: var(--first-color);
+    font-weight: 500;
+    /* text-shadow: 0px 3px black; */
+}
+.cardteam {
+  flex-basis: 0;
+  position: relative;
+  width: 90vw;
+  background-color: var(--black-color);
+  padding: 1.25rem 2rem 3rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  box-shadow: 0px 0px 20px 10px hsla(29, 75%, 8%, 0.2);
+  margin: 1.5rem;/*relative size to my screen size*/
+}
+}
+.big-circle-team {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  border-radius: 75%;
+  background: linear-gradient(to bottom, #58a6ff, #004298);
+  bottom: 40%;
+  left: 90%;
+  transform: translate(-40%, 38%);
+  z-index:0;
+}
+
+.big-circle-team:after {
+  content: "";
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  background-color: #fafafa;
+  border-radius: 60%;
+  top: calc(50% - 180px);
+  left: calc(50% - 180px);
+}

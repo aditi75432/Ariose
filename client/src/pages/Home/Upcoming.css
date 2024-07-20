@@ -1,0 +1,16 @@
+.upcomingsection{
+    width:100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+@media(max-width:900px)
+{
+    .upcomingsection{
+        width:100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
