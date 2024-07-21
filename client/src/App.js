@@ -4,7 +4,7 @@ import './App.css';
 import Header from './pages/Header/Header';
 import Footer from './pages/Header/Footer';
 import Contacts from "./pages/Contact/Contacts";
-import transaction from './pages/transaction/transaction';
+import TransferForm from './pages/transaction/transaction';
 
 import Home from "./pages/Home/Home";
 import { BrowserRouter,Route, Routes } from 'react-router-dom';
@@ -30,7 +30,7 @@ function App() {
   <Route path="/contact" element={<Contacts/>}/>
   
   <Route path="/faq" element={<FAQs/>}/>
-  <Route path="/transaction" element={<transaction/>}/>
+  <Route path="/transaction" element={<TransferForm/>}/>
   <Route path="/blog" element={<Blogpg/>}/>
   <Route path="/googlegenerationscholarship" element={<Blog/>}/>
   

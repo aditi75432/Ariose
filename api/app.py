@@ -7,7 +7,7 @@ CORS(app)
 from ml import model
 @app.route("/", methods=["POST"])
 def main():
-    s=request.json['customer_id']
+    s=request.json["customerTransactionID"]
     g=model(int(s))
     return jsonify(g)
 
