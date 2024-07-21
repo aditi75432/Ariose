@@ -432,7 +432,78 @@
         
   <div >
             <h2>Project Structure</h2>
-            <!-- Content for project structure can be added here -->
+           <ul>
+        <li >project-root
+            <ul>
+                <li>data
+                    <ul>
+                        <li >raw</li>
+                        <li>processed</li>
+                        <li >external</li>
+                        <li >interim</li>
+                    </ul>
+                </li>
+                <li >notebooks</li>
+                <li >src
+                    <ul>
+                        <li >__init__.py</li>
+                        <li >data
+                            <ul>
+                                <li >__init__.py</li>
+                                <li >data_loader.py</li>
+                            </ul>
+                        </li>
+                        <li >features
+                            <ul>
+                                <li >__init__.py</li>
+                                <li >feature_engineering.py</li>
+                            </ul>
+                        </li>
+                        <li >models
+                            <ul>
+                                <li >__init__.py</li>
+                                <li >train_model.py</li>
+                                <li >predict_model.py</li>
+                            </ul>
+                        </li>
+                        <li >visualization
+                            <ul>
+                                <li >__init__.py</li>
+                                <li >visualize.py</li>
+                            </ul>
+                        </li>
+                        <li >utils
+                            <ul>
+                                <li >__init__.py</li>
+                                <li >utils.py</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li >tests
+                    <ul>
+                        <li>__init__.py</li>
+                        <li>test_data_loader.py</li>
+                        <li >test_feature_engineering.py</li>
+                        <li >test_train_model.py</li>
+                        <li >test_predict_model.py</li>
+                    </ul>
+                </li>
+                <li >scripts
+                    <ul>
+                        <li>run_data_pipeline.py</li>
+                        <li >run_training.py</li>
+                        <li>run_prediction.py</li>
+                    </ul>
+                </li>
+                <li >requirements.txt</li>
+                <li >Dockerfile</li>
+                <li >setup.py</li>
+                <li >README.md</li>
+                <li >.gitignore</li>
+            </ul>
+        </li>
+    </ul>
         </div>
 
 
