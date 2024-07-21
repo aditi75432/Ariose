@@ -298,7 +298,7 @@
          
 ![Screenshot 2024-07-21 094740](https://github.com/user-attachments/assets/ac833b78-bf9f-4f6b-8629-4bfd19c35641)
 
-            <p>
+   <p>
                 ARIOSE leverages advanced machine learning algorithms to detect and prevent credit card fraud in real-time. The primary machine learning model used is the Isolation Forest algorithm, which excels in anomaly detection. This section outlines the usage, training, and prediction processes for the machine learning components within ARIOSE.
             </p>
         </ul>
@@ -342,13 +342,21 @@
             </li>  
                   
    </ul>
-        <h3>Training the Isolation Forest Model</h3>
+
+
+   ![image](https://github.com/user-attachments/assets/b54f80cd-a484-4234-8e45-286029103593)
+
+<h3>Training the Isolation Forest Model</h3>
         <ul>
             <li>
                 <h3 style="display: inline;" >Isolation Forest:</h3>
                 <p>An unsupervised learning algorithm specifically designed for anomaly detection.Ideal for identifying fraudulent transactions by isolating anomalies from the normal transaction patterns.</p>
             </li>
              </div>
+
+
+![image](https://github.com/user-attachments/assets/b0dc2400-b8ea-4b67-be4a-57e57e339e79)
+       
 
 <h3>FEATURES</h3>
         
