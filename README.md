@@ -22,6 +22,54 @@
         <li>Project Structure</li>
     </ol>
 
+
+
+![Screenshot 2024-07-20 135952](https://github.com/user-attachments/assets/3625d2a3-186f-40ce-8522-cdbbbf97e3da)
+
+![Screenshot 2024-07-21 073039](https://github.com/user-attachments/assets/551cb126-16f9-4dcf-8777-8acebfcb4369)
+
+
+
+![Screenshot 2024-07-21 073049](https://github.com/user-attachments/assets/cb1747ac-8052-45dc-83ca-de5d202b24f5)
+
+
+
+![Screenshot 2024-07-21 073059](https://github.com/user-attachments/assets/1e53e1d6-8fb6-4e97-9675-793ff708ec07)
+
+
+
+![Screenshot 2024-07-21 073114](https://github.com/user-attachments/assets/c6422abd-8cb3-4b91-b901-ec9eab5b1b1a)
+
+
+
+![Screenshot 2024-07-21 072956](https://github.com/user-attachments/assets/42d8f55a-f45b-4f74-a712-3535b97a11bf)
+
+
+
+![Screenshot 2024-07-21 073019](https://github.com/user-attachments/assets/2a40e43b-d667-4cc7-a0ad-70fd01e38fdd)
+
+
+
+![Screenshot 2024-07-21 073157](https://github.com/user-attachments/assets/1eb56c78-3cfc-4f4d-976b-a66b092fa480)
+
+
+
+
+![Screenshot 2024-07-21 073217](https://github.com/user-attachments/assets/e027ea43-7706-4d5c-8e75-49cea7ad1424)
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
   <div id="Problem_statement" >
         <h2>Problem Statement</h2>
 
