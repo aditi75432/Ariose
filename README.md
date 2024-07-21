@@ -54,8 +54,9 @@
 
 
 <h2>FAQs</h2>
-![Screenshot 2024-07-21 073157](https://github.com/user-attachments/assets/1eb56c78-3cfc-4f4d-976b-a66b092fa480)
 
+
+![Screenshot 2024-07-21 073157](https://github.com/user-attachments/assets/6e33c274-d6f7-4349-9c7e-a1a63790a5e7)
 
 <h2>Awareness News</h2>
 
@@ -281,9 +282,12 @@
                 <p>Diamante Blockchain ensures that all transaction data is securely recorded and immutable, preventing unauthorized alterations and ensuring data integrity.</p>
             </li>
 
+![Screenshot 2024-07-21 094740](https://github.com/user-attachments/assets/8662aaad-89d6-4519-aa6f-ddaf16bc3cfe)
 
    <li>
-                <h3 style="display: inline;" >Transparency:</h3>
+    
+
+  <h3 style="display: inline;" >Transparency:</h3>
                 <p>Each transaction is transparently recorded on the Diamante Blockchain, allowing for easy auditing and verification, which builds user trust and complies with regulatory requirements.
                 </p>
             </li>  
@@ -420,7 +424,7 @@
 
 <div>
   <h3>DEMO VIDEO</h3>
-<a href="https://drive.google.com/file/d/18AxMx6EX0ekSbVNsftYKZavNA_JAlaZt/view?usp=sharing"></a>
+  <a href="https://drive.google.com/file/d/18AxMx6EX0ekSbVNsftYKZavNA_JAlaZt/view?usp=sharing">See the Demo Video Here</a>
   
 </div>
 <h1>Challenges Faced</h1>
