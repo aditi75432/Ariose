@@ -365,8 +365,75 @@
                   
    </ul>
 
-
-    
+<div>
+  <h3>DEMO VIDEO</h3>
+</div>
+<h1>Challenges Faced</h1>
+        
+   <div >
+            <h2>Integration of Machine Learning in Web3</h2>
+            <h3>Data Security and Privacy</h3>
+            <p>Ensuring that sensitive transaction data used for machine learning is kept secure and private while being processed.</p>
+            <p>Implementing privacy-preserving machine learning techniques to comply with data protection regulations.</p>
+            <h3>Interoperability</h3>
+            <p>Integrating machine learning models with blockchain infrastructure seamlessly.</p>
+            <p>Ensuring that the outputs of machine learning models can be effectively utilized within the Web3 ecosystem.</p>
+        </div>
+        
+   <div>
+            <h2>Integration of Blockchain</h2>
+            <h3>Blockchain Interoperability</h3>
+            <p>Ensuring seamless interaction between the blockchain layer and the application layer.</p>
+            <h3>Performance and Scalability</h3>
+            <p>Handling the potential performance bottlenecks of blockchain, such as transaction throughput and confirmation times.</p>
+            <p>Implementing solutions to scale the blockchain network as the number of users and transactions increases.</p>
+        </div>
+        
+  <div >
+            <h2>GitHub Account Issues</h2>
+            <h3>Repository Management</h3>
+            <p>Managing repository access and permissions to ensure that team members have the necessary access while maintaining security.</p>
+            <p>Handling issues related to repository cloning, pushing, and pulling due to account or authentication problems.</p>
+            <h3>Version Control</h3>
+            <p>Ensuring that all team members are using consistent version control practices to avoid conflicts and merge issues.</p>
+            <p>Resolving merge conflicts that arise from simultaneous development efforts.</p>
+            <h3>Collaboration</h3>
+            <p>Coordinating among team members to ensure smooth collaboration and avoid issues like code overwriting or accidental deletions.</p>
+            <p>Utilizing GitHub features like branches, pull requests, and issues effectively for team collaboration.</p>
+        </div>
+        
+   <div >
+            <h2>Various Technical Issues</h2>
+            <h3>Infrastructure Setup</h3>
+            <p>Setting up and configuring the development and production environments, including servers, databases, and blockchain nodes.</p>
+            <p>Ensuring that all components of the application are correctly configured and can communicate with each other.</p>
+            <h3>Deployment Challenges</h3>
+            <p>Deploying the application on cloud platforms and ensuring that all services are up and running.</p>
+            <p>Handling deployment issues such as server downtime, configuration errors, and dependency management.</p>
+            <h3>API Integration</h3>
+            <p>Integrating third-party APIs and services into the application and handling any compatibility or configuration issues.</p>
+            <p>Ensuring that the APIs are secure and perform well under load.</p>
+            <h3>Bug Fixing and Testing</h3>
+            <p>Identifying and fixing bugs that arise during development and testing phases.</p>
+            <p>Ensuring comprehensive testing of the application to detect and resolve issues early in the development process.</p>
+            <h3>Documentation and Knowledge Sharing</h3>
+            <p>Maintaining up-to-date documentation to ensure that all team members are aware of the system architecture, configuration, and best practices.</p>
+            <p>Facilitating knowledge sharing and troubleshooting among team members to quickly resolve technical issues.</p>
+        </div>
+  
+        
+  <div >
+            <h2>Contributors</h2>
+            <p><strong>Anusha Arora:</strong> Made login page, and transaction pages and data processing and readme and ppt and integration of backend with ML model.</p>
+            <p><strong>Aditi Mehta:</strong> Made the whole front end completely and including blockchain.</p>
+            <p><strong>Arshiya Garg:</strong> Made a whole ML model and training dataset, data preprocessing and learned about IPFS and readme.</p>
+            <p><strong>Vania Goel:</strong> Helping in front end, integrating ML and blockchain together using IPFS, Integrating APIs, deploying ML and blockchain in backend.</p>
+        </div>
+        
+  <div >
+            <h2>Project Structure</h2>
+            <!-- Content for project structure can be added here -->
+        </div>
 
 
 </div>
