@@ -221,6 +221,153 @@
  </li>
   </ul>
 </div>
+ <div> 
+        <h3>USAGE</h3>
+
+   <h3> 1. Diamante : </h3>
+        <ul>
+            <p>
+                Diamante Blockchain is known for its high security, transparency, and efficiency in handling financial transactions. Integrating Diamante Blockchain into ARIOSE enhances the platform's fraud detection capabilities and provides a robust, immutable ledger for all transactions.
+            </p>
+        </ul>
+
+  <br>
+
+   <h4>Key Benefits</h4>
+        <ul>
+            <li>
+                <h3 style="display: inline;" >Enhanced Security:</h3>
+                <p>Diamante Blockchain ensures that all transaction data is securely recorded and immutable, preventing unauthorized alterations and ensuring data integrity.</p>
+            </li>
+
+
+   <li>
+                <h3 style="display: inline;" >Transparency:</h3>
+                <p>Each transaction is transparently recorded on the Diamante Blockchain, allowing for easy auditing and verification, which builds user trust and complies with regulatory requirements.
+                </p>
+            </li>  
+            <li>
+                <h3 style="display: inline;" >Efficiency:</h3>
+                <p>The blockchain's efficient consensus mechanism ensures fast transaction processing, which is crucial for real-time fraud detection and prevention.
+                </p>
+            </li>       
+        </ul>
+        <h4>1.MACHINE LEARNING MODEL</h4>
+        <ul>
+            <p>
+                ARIOSE leverages advanced machine learning algorithms to detect and prevent credit card fraud in real-time. The primary machine learning model used is the Isolation Forest algorithm, which excels in anomaly detection. This section outlines the usage, training, and prediction processes for the machine learning components within ARIOSE.
+            </p>
+        </ul>
+
+   <br>
+
+   <h3>Training the Machine Learning Model</h3>
+        <h3>Data Collection</h3>
+        <ul>
+            <li>
+                <h3 style="display: inline;" >Historical Transaction Data:</h3>
+                <p>Collect historical transaction data including features such as transaction amount, timestamp, location, merchant details, and user information.</p>
+            </li>
+
+
+   <li>
+                <h3 style="display: inline;" >Labeling Data:</h3>
+                <p>For supervised algorithms, label the data to indicate whether each transaction is legitimate or fraudulent.
+                </p>
+            </li>  
+                  
+  </ul>
+
+  <h3>Data Preprocessing</h3>
+        <ul>
+            <li>
+                <h3 style="display: inline;" >Data Cleaning:</h3>
+                <p>Remove duplicates, handle missing values, and correct any inconsistencies in the data.</p>
+            </li>
+
+
+   <li>
+                <h3 style="display: inline;" >Feature Engineering:</h3>
+                <p>Create new features or modify existing ones to improve the model's predictive power (e.g., transaction frequency, average transaction amount).
+                </p>
+            </li>  
+            <li>
+                <h3 style="display: inline;" >Normalization:</h3>
+                <p>Scale the features to a standard range to ensure the model's performance is not biased by the scale of the input data.</p>
+            </li>  
+                  
+   </ul>
+        <h3>Training the Isolation Forest Model</h3>
+        <ul>
+            <li>
+                <h3 style="display: inline;" >Isolation Forest:</h3>
+                <p>An unsupervised learning algorithm specifically designed for anomaly detection.Ideal for identifying fraudulent transactions by isolating anomalies from the normal transaction patterns.</p>
+            </li>
+             </div>
+
+<h3>FEATURES</h3>
+        
+ <div>
+            <h2>Real-time Fraud Detection</h2>
+            <h3>Isolation Forest Algorithm</h3>
+            <p>Utilizes the Isolation Forest algorithm for real-time anomaly detection, ensuring immediate identification and prevention of fraudulent transactions.</p>
+            <h3>Instant Alerts</h3>
+            <p>Provides real-time alerts to users and administrators when a suspicious transaction is detected, enabling prompt action.</p>
+        </div>
+        
+  <div >
+            <h2>Blockchain-Powered Security</h2>
+            <h3>Immutable Transaction Records</h3>
+            <p>Every transaction is recorded on the Diamante Blockchain, creating an immutable ledger that prevents tampering and ensures data integrity.</p>
+            <h3>User Information Masking</h3>
+            <p>Masks and secures user information using blockchain technology, ensuring confidentiality and reducing the risk of data breaches.</p>
+        </div>
+        
+  <div>
+            <h2>User-Friendly Interface</h2>
+            <h3>Intuitive Dashboard</h3>
+            <p>Features a sleek and intuitive dashboard that allows users to easily monitor transactions, view alerts, and access detailed analytics.</p>
+            <h3>Detailed Analytics</h3>
+            <p>Provides comprehensive analytics and visualizations of transaction data, helping users understand patterns and detect anomalies.</p>
+        </div>
+        
+   <div>
+            <h2>Seamless Integration</h2>
+            <h3>API Integration</h3>
+            <p>Offers robust APIs for seamless integration with existing financial systems, ensuring comprehensive oversight without disrupting current operations.</p>
+            <h3>Compatibility</h3>
+            <p>Compatible with various payment gateways and financial platforms, facilitating widespread adoption.</p>
+        </div>
+             <div>
+            <h2>Privacy and Transparency</h2>
+            <h3>Transparent Ledger</h3>
+            <p>Maintains a transparent and verifiable ledger of all transactions on the blockchain, building user trust and ensuring regulatory compliance.</p>
+            <h3>Privacy by Design</h3>
+            <p>Prioritizes user privacy with advanced cryptographic methods, ensuring personal and transaction data remain secure and confidential.</p>
+        </div>
+        
+   <div >
+            <h2>Comprehensive Support</h2>
+            <h3>24/7 Customer Support</h3>
+            <p>Provides round-the-clock customer support to assist users with any issues or questions, ensuring a smooth and secure experience.</p>
+            <h3>Extensive Documentation</h3>
+            <p>Offers detailed documentation and tutorials to help users and developers understand and utilize the platform effectively.</p>
+        </div>
+        
+  <div>
+            <h2>Continuous Improvement</h2>
+            <h3>Regular Updates</h3>
+            <p>Regularly updates the platform with new features, security patches, and improvements based on user feedback and technological advancements.</p>
+            <h3>User Feedback Loop</h3>
+            <p>Incorporates user feedback into the development process, ensuring the platform evolves to meet user needs and industry standards.</p>
+        </div>
+   
+                  
+   </ul>
+
+
+    
+
 
 </div>
 
