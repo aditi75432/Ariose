@@ -295,6 +295,9 @@
         </ul>
         <h4>1.MACHINE LEARNING MODEL</h4>
         <ul>
+         
+![Screenshot 2024-07-21 094740](https://github.com/user-attachments/assets/ac833b78-bf9f-4f6b-8629-4bfd19c35641)
+
             <p>
                 ARIOSE leverages advanced machine learning algorithms to detect and prevent credit card fraud in real-time. The primary machine learning model used is the Isolation Forest algorithm, which excels in anomaly detection. This section outlines the usage, training, and prediction processes for the machine learning components within ARIOSE.
             </p>
@@ -304,6 +307,7 @@
 
    <h3>Training the Machine Learning Model</h3>
         <h3>Data Collection</h3>
+        <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud"></a>
         <ul>
             <li>
                 <h3 style="display: inline;" >Historical Transaction Data:</h3>
@@ -408,6 +412,8 @@
 
 <div>
   <h3>DEMO VIDEO</h3>
+<a href="https://drive.google.com/file/d/18AxMx6EX0ekSbVNsftYKZavNA_JAlaZt/view?usp=sharing"></a>
+  
 </div>
 <h1>Challenges Faced</h1>
         
