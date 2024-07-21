@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Domestic Money Transfer</title>
+  <link rel="stylesheet" href="transaction.css">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+  <h1 id="typewriter"></h1>
+  
+  <form id="transfer-form">
+    <label for="amount">Amount: *</label>
+    <input type="number" id="amount" name="amount" required><br><br>
+    <label for="recipient">Recipient: *</label>
+    <input type="text" id="recipient" name="recipient" required><br><br>
+    <label for="recipient ID">Recipient ID: *</label>
+    <input type="text" id="recipient ID" name="recipient ID" required><br><br>
+    <label for="customer_id">customer_id: *</label>
+    <input type="text" id="customer_id" name="customer_id" required><br><br>
+    <h6>
+      <input type="checkbox" name="tick" value="I have read the privacy policies and user agreement and hereby agree with the privacy policy and processing of my personal data by ARIOSE Services Private Limited. I hereby authorize and give consent to ARIOSE Services Private Limited to send me, either through itself or through any third-party service provider, from time-to-time various information/promotional material/transactional information/account information, and other information by way of notifications/alerts/SMS/WhatsApp messages and other messages or calls or commercial communication on my registered number, whether the number is registered with National Do Not Call Registry/ listed in National Customer Preference Register or not. I also confirm that by sending any of such messages / calls, I will not hold ARIOSE and its third-party service provider liable / institute complaint under the Telecom Commercial Communications Customer Preference Regulations, 2018 or such other applicable regulations including any amendment thereof, as may be applicable from time to time. If you want to revoke your consent, please send an email to helpdesk@ariose.in or call our support number +91 81426340000. Application of Indians of 18 years and above only with a valid PAN Card is accepted.*" required> 
+      I have read the privacy policies and user agreement and hereby agree with the privacy policy and processing of my personal data by ARIOSE Services Private Limited. I hereby authorize and give consent to ARIOSE Services Private Limited to send me, either through itself or through any third-party service provider, from time-to-time various information/promotional material/transactional information/account information, and other information by way of notifications/alerts/SMS/WhatsApp messages and other messages or calls or commercial communication on my registered number, whether the number is registered with National Do Not Call Registry/ listed in National Customer Preference Register or not. I also confirm that by sending any of such messages / calls, I will not hold ARIOSE and its third-party service provider liable / institute complaint under the Telecom Commercial Communications Customer Preference Regulations, 2018 or such other applicable regulations including any amendment thereof, as may be applicable from time to time. If you want to revoke your consent, please send an email to helpdesk@ariose.in or call our support number +91 81426340000. Application of Indians of 18 years and above only with a valid PAN Card is accepted.*
+    </h6>
+    <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div><br><br>
+    <button type="submit">Transfer</button>
+    <br>
+  </form>
+
+  <script src="transaction.js"></script>
+</body>
+</html>

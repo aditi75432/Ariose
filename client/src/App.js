@@ -5,7 +5,7 @@ import Header from './pages/Header/Header';
 import Footer from './pages/Header/Footer';
 import Contacts from "./pages/Contact/Contacts";
 import transaction from './pages/transaction/transaction';
-import MainSection from './pages/Teams/MainSection';
+
 import Home from "./pages/Home/Home";
 import { BrowserRouter,Route, Routes } from 'react-router-dom';
 import AOS from 'aos';
@@ -28,7 +28,7 @@ function App() {
 <Routes>
   <Route path="/" element={<Home/>}/>
   <Route path="/contact" element={<Contacts/>}/>
-  <Route path="/team" element={<MainSection/>}/>
+  
   <Route path="/faq" element={<FAQs/>}/>
   <Route path="/transaction" element={<transaction/>}/>
   <Route path="/blog" element={<Blogpg/>}/>

@@ -1,5 +1,5 @@
-
-body {font-family: Arial, sans-serif;
+body {
+    font-family: Arial, sans-serif;
     text-align: center;
     background-color: rgb(20, 20, 20);
     background-size: cover;
@@ -7,6 +7,11 @@ body {font-family: Arial, sans-serif;
     color: whitesmoke;
   }
   
+  /* heading{
+    text-align: center;
+    text-shadow: 100;
+    
+  } */
   form {
     max-width: 700px;
     margin: 40px auto;
@@ -15,7 +20,6 @@ body {font-family: Arial, sans-serif;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(244, 244, 244, 0.935);
-    
     justify-content: flex-end;
   }
   
@@ -47,6 +51,5 @@ body {font-family: Arial, sans-serif;
   
   button[type="submit"]:hover {
     background-color: #4cad4f;
-    
-    
   }
+  
