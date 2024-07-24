@@ -6,7 +6,7 @@
   <p>ARIOSE is a credit card fraud detection platform designed to safeguard your financial transactions with both precision and security. Leveraging the power of advanced machine learning algorithms and blockchain technology, ARIOSE ensures that your transactions are not only secure but also transparent and immutable.
         ARIOSE is a step into a future of credit card security where finances are protected with a platform that combines the best of AI and blockchain technology for security and peace of mind.
     </p>
-<h2>Table Of Contents</h2>
+<h2>Table Of Contents :</h2>
   <ol>
         <li> Website Flow</li>
         <li>Problem Statement</li>
