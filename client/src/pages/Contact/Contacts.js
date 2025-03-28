@@ -82,7 +82,7 @@ function Contacts() {
               <a href="https://www.instagram.com/luky75432/">
                 <i className="fa"> <FaInstagram /> </i>
               </a>
-              <a href="https://www.linkedin.com/company/microsoft-student-chapter-igdtuw/">
+              <a href="https://www.linkedin.com/in/aditi-mehta-6b471a287/">
                 <i className="fa"> <FaLinkedin /> </i>
               </a>
             </div>

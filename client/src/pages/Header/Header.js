@@ -13,8 +13,7 @@ const Header = () => {
     <label for="menu-toggle" class="menu-icon">&#9776;</label>
     <ul class="menu">
       <li ><a href="/">Home</a></li>
-      <li ><a href="/events">Events</a></li>
-      <li ><a href="/team">Team</a></li>
+      <li ><a href="/transaction">Transaction</a></li>
       <li ><a href="/contact">Contact Us</a></li>
       <li ><a href="/faq">FAQ</a></li>
       <li ><a href="/blog">Blogs</a></li>
